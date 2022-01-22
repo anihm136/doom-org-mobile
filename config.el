@@ -122,6 +122,8 @@
       ((org-ql-search-block '(and (todo "PROJECT")
                                   (not (children (todo "PROJECT" "NEXT"))))))))))
 
+(add-hook! 'auto-save-hook 'org-save-all-org-buffers)
+
 (use-package! org-roam
   :defer t
   :custom-face
