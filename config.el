@@ -105,7 +105,7 @@
        (todo "" ((org-agenda-files '(,(concat ani/org-directory "GTD/" "inbox.org"))) (org-agenda-overriding-header gtd/inbox-head)))
        (todo "NEXT" ((org-agenda-overriding-header gtd/next-action-head)))
        ;; (org-ql-search-block '(todo "NEXT")
-                            ((org-ql-block-header gtd/next-action-head)))
+                            ;; ((org-ql-block-header gtd/next-action-head)))
        (org-ql-search-block '(or (todo "REFILE")
                                  (and (todo "PROJECT")
                                       (not (children (todo "PROJECT")))))
