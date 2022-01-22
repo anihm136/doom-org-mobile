@@ -88,7 +88,7 @@
   :init
   (defalias '+org--restart-mode-h #'ignore)
   (setq
-   org-agenda-files '("~/Documents/org/GTD")
+   org-agenda-files '("~/storage/shared/Documents/org/GTD")
    org-refile-targets `((,(concat ani/org-directory "GTD/" "projects.org") :maxlevel . 3)
                         (,(concat ani/org-directory "GTD/" "tasks.org") :maxlevel . 2)
                         (,(concat ani/org-directory "GTD/" "reading.org") :level . 1)
