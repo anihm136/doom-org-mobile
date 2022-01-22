@@ -44,8 +44,6 @@
         doom-modeline-unicode-fallback t
         doom-modeline-buffer-file-name-style 'truncate-upto-root))
 
-(load! "lisp/llvm-mode")
-
 ;; Deferred loading
 (use-package! org
   :defer t
